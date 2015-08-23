@@ -1,0 +1,40 @@
+/** {
+  border: 1px solid red !important;
+}*/
+
+
+/*responsive layout changes*/
+
+@media screen and (max-width: 990px) {
+    .logo {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .name-title {
+        text-align: center;
+    }
+}
+
+/*set font*/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: gray;
+}
+.logo {
+    padding-top: 20px;
+    width: 200px;
+    height: auto;
+}
+.redbar {
+    color: red;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F51C2C;
+    color: #F51C2C;
+    border: 0 none;
+}
