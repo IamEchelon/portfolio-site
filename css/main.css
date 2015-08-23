@@ -1,8 +1,3 @@
-/** {
-  border: 1px solid red !important;
-}*/
-
-
 /*responsive layout changes*/
 
 @media screen and (max-width: 990px) {
@@ -14,6 +9,10 @@
     .name-title {
         text-align: center;
     }
+    #feature-text {
+        text-align: center;
+        font-size: 30px;
+    }
 }
 
 /*set font*/
@@ -22,6 +21,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     color: gray;
 }
+
+/*primary changes*/
 .logo {
     padding-top: 20px;
     width: 200px;
@@ -37,4 +38,12 @@ body {
     background-color: #F51C2C;
     color: #F51C2C;
     border: 0 none;
+}
+#feature-text {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#copyright {
+    margin: none;
+    padding-bottom: 40px;
 }

@@ -8,7 +8,6 @@
     <link href='http://fonts.googleapis.com/css?family=Quicksand:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
 </head>
 
 <body>
@@ -50,7 +49,7 @@
             <!-- bottom row -->
             <div class="row">
                 <div class="col-md-12">
-                    <h3>Featured Work</h3>
+                    <h3 id="feature-text">Featured Work</h3>
                 </div>
             </div>
             <!-- bottom images -->
@@ -61,12 +60,12 @@
                     <p>http://loremipsum.com</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/art2.jpg" alt="bottom image" class="img-responsive img-rounded center-block" data-toggle="modal" data-target="#project1">
+                    <img src="images/art2.jpg" alt="bottom image" class="img-responsive img-rounded center-block" data-toggle="modal" data-target="#project2">
                     <h3>Lorem Ipsum</h3>
                     <p>http://loremipsum.com</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/art3.jpg" alt="bottom image" class="img-responsive img-rounded center-block" data-toggle="modal" data-target="#project1">
+                    <img src="images/art3.jpg" alt="bottom image" class="img-responsive img-rounded center-block" data-toggle="modal" data-target="#project3">
                     <h3>Lorem Ipsum</h3>
                     <p>http://loremipsum.com</p>
                 </div>
@@ -78,7 +77,49 @@
                                 <h4 class="modal-title" id="myModalLabel">Cool Modal Bro</h4>
                             </div>
                             <div class="modal-body">
-                                <img class="img-responsive center-block" src="http://lorempixel.com/400/350"> This is a demonstration modal. Showcasing my samurai awesomness at bootstrap.
+                                <img class="img-responsive center-block" src="images/art.jpg">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="myModalLabel">Cool Modal Bro</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-responsive center-block" src="images/art2.jpg">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title" id="myModalLabel">Cool Modal Bro</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img class="img-responsive center-block" src="images/art3.jpg">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -91,7 +132,7 @@
             <footer>
                 <div class="row text-center">
                     <div class="col-md-12">
-                        <h4>&#169; looooop 2015</h4>
+                        <h4 id="copyright">&#169; looooop 2015</h4>
                     </div>
                 </div>
             </footer>
